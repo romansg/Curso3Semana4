@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Petagram</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="lista_mascotas_fragment">Mascotas</string>
+    <string name="perfil_mascota_fragment">Perfil</string>
+    <string name="foto_descr">Imagen de la mascota</string>
+    <string name="rate_descr">Imagen para calificar la mascota</string>
+    <string name="ratings_descr">Botón para "dar like" a la mascota</string>
+    <string name="dummy_pet_name">Fiona</string>
+    <string name="dummy_pet_likes">5</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_biografia">Acerca de</string>
+    <string name="menu_favoritas">Ver favoritas</string>
+</resources>
