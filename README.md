@@ -13,7 +13,7 @@ public class MailConf {
 }
 ```
 
-* Para que el envío funcione, la cuenta de GMail que se utilice debe tener habilitado el [**acceso a aplicaciones menos seguras**](https://myaccount.google.com/lesssecureapps), de lo conrario, GMail rechazará el envío.
+* Para que el envío funcione, la cuenta de GMail que se utilice debe tener habilitado el [**acceso a aplicaciones menos seguras**](https://myaccount.google.com/lesssecureapps), de lo contrario, GMail rechazará el envío.
 
 ## Pantallazos
 
