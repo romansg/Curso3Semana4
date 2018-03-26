@@ -16,3 +16,15 @@ public class MailConf {
 * Para que el envío funcione, la cuenta de GMail que se utilice debe tener habilitado el [**acceso a aplicaciones menos seguras**](https://myaccount.google.com/lesssecureapps), de lo conrario, GMail rechazará el envío.
 
 ## Pantallazos
+
+Fragmento lista de mascotas | Fragmento perfil de mascota
+---|---
+![Pantalla de inicio](/docs/fragment_lista_mascotas.png) | ![Pantalla de favoritos](/docs/fragment_perfil_mascota.png)
+
+Menú|
+---|
+![Pantalla de inicio](/docs/menu.png)
+
+Formulario de contacto|Acerca de
+-|-
+![Pantalla de inicio](/docs/activity_contacto.png) | ![Pantalla de favoritos](/docs/activity_biografia.png)
