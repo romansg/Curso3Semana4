@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="MARGIN_HORIZONTAL">8dp</dimen>
+    <dimen name="CARDVIEW_CORNER_RADIUS">5dp</dimen>
+    <dimen name="CARDVIEW_MARGIN_HORIZONTAL">8dp</dimen>
+    <dimen name="CARDVIEW_MARGIN_VERTICAL">8dp</dimen>
+    <dimen name="CARDVIEW_ELEVATION">4dp</dimen>
+</resources>
