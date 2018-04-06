@@ -3,7 +3,6 @@ package com.romansg.curso3semana4.adapter;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-
 import java.util.ArrayList;
 
 /**

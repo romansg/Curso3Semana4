@@ -3,7 +3,6 @@ package com.romansg.curso3semana4.pojo;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.widget.Toast;
-
 import java.util.Date;
 import java.util.Properties;
 import javax.mail.Message;

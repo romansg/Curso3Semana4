@@ -3,17 +3,13 @@ package com.romansg.curso3semana4.fragment;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
 import com.romansg.curso3semana4.R;
-import com.romansg.curso3semana4.adapter.MascotaAdapter;
 import com.romansg.curso3semana4.adapter.MiniaturaAdapter;
 import com.romansg.curso3semana4.pojo.Mascota;
-
 import java.util.ArrayList;
 
 /**
