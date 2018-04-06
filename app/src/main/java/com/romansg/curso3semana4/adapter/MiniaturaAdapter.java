@@ -1,10 +1,7 @@
 package com.romansg.curso3semana4.adapter;
 
 import android.app.Activity;
-import android.support.v7.widget.CardView;
-import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.DragEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,12 +19,12 @@ import java.util.ArrayList;
  * Created by roman on 23/03/18.
  */
 
-public class MascotaAdapter extends RecyclerView.Adapter<MascotaAdapter.MascotaViewHolder> {
+public class MiniaturaAdapter extends RecyclerView.Adapter<MiniaturaAdapter.MascotaViewHolder> {
     private ArrayList<Mascota> mascotas;
     private Activity activity;
     private int seleccion = 0;
 
-    public MascotaAdapter(ArrayList<Mascota> mascotas, Activity activity) {
+    public MiniaturaAdapter(ArrayList<Mascota> mascotas, Activity activity) {
         this.mascotas = mascotas;
         this.activity = activity;
     }
@@ -35,7 +32,7 @@ public class MascotaAdapter extends RecyclerView.Adapter<MascotaAdapter.MascotaV
     @Override
     public MascotaViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-        View view = inflater.inflate(R.layout.mascota, parent, false);
+        View view = inflater.inflate(R.layout.miniatura, parent, false);
 
         return new MascotaViewHolder(view);
     }
@@ -45,19 +42,7 @@ public class MascotaAdapter extends RecyclerView.Adapter<MascotaAdapter.MascotaV
         final Mascota mascota = mascotas.get(position);
 
         holder.ivPetPhoto.setImageResource(mascota.getFoto());
-        holder.tvPetName.setText(mascota.getNombre());
         holder.tvPetLikes.setText(mascota.getLikes() + "");
-
-        holder.btnPetLike.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                int likes = mascota.getLikes() + 1;
-                mascota.setLikes(likes);
-                holder.tvPetLikes.setText(likes + "");
-
-                Toast.makeText(activity, "Diste like a " + mascota.getNombre(), Toast.LENGTH_SHORT).show();
-            }
-        });
     }
 
     @Override
@@ -67,16 +52,12 @@ public class MascotaAdapter extends RecyclerView.Adapter<MascotaAdapter.MascotaV
 
     public static class MascotaViewHolder extends RecyclerView.ViewHolder {
         private ImageView ivPetPhoto;
-        private ImageButton btnPetLike;
-        private TextView tvPetName;
         private TextView tvPetLikes;
 
         public MascotaViewHolder(View itemView) {
             super(itemView);
 
             ivPetPhoto = itemView.findViewById(R.id.ivPetPhoto);
-            btnPetLike = itemView.findViewById(R.id.btnPetLike);
-            tvPetName = itemView.findViewById(R.id.tvPetName);
             tvPetLikes  = itemView.findViewById(R.id.tvPetLikes);
         }
     }

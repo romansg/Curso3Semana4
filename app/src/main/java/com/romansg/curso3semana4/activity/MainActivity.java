@@ -12,11 +12,9 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.romansg.curso3semana4.R;
-import com.romansg.curso3semana4.activity.MascotasFavoritasActivity;
 import com.romansg.curso3semana4.adapter.PageAdapter;
 import com.romansg.curso3semana4.fragment.ListaMascotasFragment;
 import com.romansg.curso3semana4.fragment.PerfilMascotaFragment;
-
 import java.util.ArrayList;
 
 

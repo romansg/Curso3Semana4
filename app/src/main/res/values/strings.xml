@@ -5,11 +5,19 @@
     <string name="lista_mascotas_fragment">Mascotas</string>
     <string name="perfil_mascota_fragment">Perfil</string>
     <string name="foto_descr">Imagen de la mascota</string>
-    <string name="rate_descr">Imagen para calificar la mascota</string>
     <string name="ratings_descr">Botón para "dar like" a la mascota</string>
     <string name="dummy_pet_name">Fiona</string>
     <string name="dummy_pet_likes">5</string>
     <string name="menu_contacto">Contacto</string>
     <string name="menu_biografia">Acerca de</string>
     <string name="menu_favoritas">Ver favoritas</string>
+    <string name="ti_nombre_hint">Nombre</string>
+    <string name="ti_correo_hint">Correo electrónico</string>
+    <string name="ti_texto_correo">Texto</string>
+    <string name="texto_boton_enviar_correo">Enviar</string>
+    <string name="texto_acerca_de">Acerca de</string>
+    <string name="bio_desarrollador">
+        Guau, guau, hola, mi nombre es Rufus y soy un desarrollador novato pero espero que esta App
+        sea de tu agrado.
+    </string>
 </resources>
